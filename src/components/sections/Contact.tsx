@@ -119,7 +119,7 @@ export default function Contact() {
           <p className="mt-4 text-gray-600 text-center">
             Or reach us via WhatsApp:{" "}
             <a
-              href="https://wa.me/03363334733"
+              href="https://wa.me/923363334733"
               target="_blank"
               className="text-(--color-accent) font-medium"
             >
