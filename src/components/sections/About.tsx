@@ -5,7 +5,7 @@ export default function About() {
         
         {/* Left Side - Text */}
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-primary)]">
+          <h2 className="text-3xl md:text-4xl font-bold text-(--color-primary)">
             About Our Company
           </h2>
 
@@ -25,28 +25,28 @@ export default function About() {
 
           <div className="mt-8 grid grid-cols-2 gap-6">
             <div>
-              <h3 className="text-2xl font-bold text-[var(--color-accent)]">
+              <h3 className="text-2xl font-bold text-(--color-accent)">
                 10+
               </h3>
               <p className="text-sm text-gray-600">Years of Experience</p>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-[var(--color-accent)]">
+              <h3 className="text-2xl font-bold text-(--color-accent)">
                 25+
               </h3>
               <p className="text-sm text-gray-600">Countries Served</p>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-[var(--color-accent)]">
+              <h3 className="text-2xl font-bold text-(--color-accent)">
                 500+
               </h3>
               <p className="text-sm text-gray-600">Products Supplied</p>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-[var(--color-accent)]">
+              <h3 className="text-2xl font-bold text-(--color-accent)">
                 ISO
               </h3>
               <p className="text-sm text-gray-600">Certified Standards</p>
@@ -57,7 +57,7 @@ export default function About() {
         {/* Right Side - Placeholder Image Block */}
         <div className="bg-white shadow-md rounded-lg p-8">
           <div className="h-64 bg-gray-200 rounded-md flex items-center justify-center text-gray-500">
-            Company / Facility Image
+            <img src="https://i.postimg.cc/V67DVqL3/businessman-touching-virtual-screen.jpg" alt="Company Image" className="w-full h-full object-cover rounded-md" />
           </div>
         </div>
 

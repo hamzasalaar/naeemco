@@ -98,7 +98,7 @@ export default function Contact() {
               <textarea
                 {...register("message")}
                 rows={4}
-                className="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)]"
+                className="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-(--color-accent)"
               ></textarea>
               {errors.message && (
                 <p className="text-red-500 text-sm mt-1">
@@ -110,7 +110,7 @@ export default function Contact() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-[var(--color-accent)] text-white px-6 py-3 rounded-md hover:opacity-90 transition"
+              className="w-full bg-(--color-accent) text-white px-6 py-3 rounded-md hover:opacity-90 transition"
             >
               {isSubmitting ? "Sending..." : "Send Message"}
             </button>
@@ -119,9 +119,9 @@ export default function Contact() {
           <p className="mt-4 text-gray-600 text-center">
             Or reach us via WhatsApp:{" "}
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/03363334733"
               target="_blank"
-              className="text-[var(--color-accent)] font-medium"
+              className="text-(--color-accent) font-medium"
             >
               Chat Now
             </a>
